@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
     box-sizing: border-box;
@@ -9,6 +10,7 @@ body {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+
 
 .header {
     display: flex;
@@ -39,8 +41,98 @@ ul {
 
 ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 200;
     color: #F9FAF8;
 
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+
+}
+
+.showcase {
+    padding-left: 135px;
+    padding-bottom: 0px;
+}
+
+
+.showcase>h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.showcase>p {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 100;
+    margin: 0;
+}
+
+.showcase>button {
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 26px;
+    width: 110px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+
+    background-color: #F9FAF8;
+
+}
+
+.imgContainer {
+    display: block;
+    background-color: #71797E;
+    height: 150px;
+    width: 800px;
+    margin: 50px 150px 50px 0px;
+    padding: auto;
+}
+
+figure {
+    margin: 50px 0;
+    width: 125px;
+    height: 150px;
+}
+
+.figureDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.figureImg {
+    width: 100px;
+    height: 100px;
+    background-color: #71797E;
+}
+
+figure>img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 18px;
+}
+
+#imgShowcase>h2 {
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 25px auto;
 }
