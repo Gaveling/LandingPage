@@ -130,9 +130,13 @@ figcaption {
     font-size: 18px;
 }
 
-#imgShowcase>h2 {
-    display: block;
+#imgShowcase>div {
+    display: flex;
+    justify-content: center;
+}
+
+#imgShowcase>div>h2 {
     font-size: 36px;
     font-weight: 800;
-    margin: 25px auto;
+
 }
